@@ -1,0 +1,6 @@
+# Netlify redirects for the Sylph Architects site
+# Short link to the free guide, for emails and WhatsApp: sylph-architects.netlify.app/guide
+/guide    /guide/Sylph_The_Press-Worthy_Project.pdf    302
+# Older links (and earlier guide PDFs) used /check: send them to the form
+/check      /eligibility/          301
+/check/*    /eligibility/:splat    301
