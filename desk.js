@@ -27,7 +27,7 @@ export async function submitLead(fields) {
         // Spread ALL form answers — known + custom fields become columns
         ...fields,
         // Email subject override for this lead:
-        subject: fields.subject || "Editorial Sylph Consultancy Leads",
+        subject: fields.subject || "New Architects Sylphconsultancy Lead",
       }),
       keepalive: true,
     });

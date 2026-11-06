@@ -865,8 +865,8 @@ async function submitLead(fields) {
         honeypot: fields.honeypot || "",
         // Spread ALL form answers — known + custom fields become columns
         ...fields,
-        // Subject name Editorial Sylph Consultancy Leads
-        subject: fields.subject || "Editorial Sylph Consultancy Leads",
+        // Subject name New Architects Sylphconsultancy Lead
+        subject: fields.subject || "New Architects Sylphconsultancy Lead",
       }),
       keepalive: true,
     });
@@ -922,7 +922,7 @@ function result() {
 
   // Submit lead to Getnos Desk API
   const leadFields = {
-    subject: "Editorial Sylph Consultancy Leads",
+    subject: "New Architects Sylphconsultancy Lead",
     name: state.contact.name || "",
     phone: state.contact.phone || "",
     email: state.contact.email || "",
